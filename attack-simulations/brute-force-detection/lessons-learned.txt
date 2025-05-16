@@ -1,1 +1,18 @@
+so right now im going through some testing making sure we can do this bruteforce attack
+i want this to be as real as possible so i wanna do some test before i start
 
+so far i used nmap to check for open ports
+
+nmap -p 22 <windowsIP>
+ after i used nmap command i got back that my port 22 is filtered 
+
+so now i have to find a way to unblock port 22 
+i can just walk to the windows 11 machine (victim) and turn off the firewall, But i want to do the hacking way.
+now i can use a bashbunny, ducky, or a o.mg cable to do a bunny script plug it to the target and i can go back to my hacking machine 
+
+hopefully this works, now what should i choose ? 
+
+    these tools are malicious becuase they will bypass the windows 11 warnings becuase these tools show as a keyboard 
+   option 1) o.mg cable - usb A to usb mini = the first gen, it gives out a wifi signal and you can use any browser to get a gui, from phone or laptop  
+   option 2) bashbunny - usb A = you can write a bunny script 3and plug it to the target and waite 5-10 seconds and unplug 
+   option 3) rubber ducky - usb A = same as the bashbunny but smaller
