@@ -11,7 +11,7 @@ A standard-library Python command-line tool that checks **one domain per run** f
 - Project guide: domain-posture-check/README.md
 - Python script: domain-posture-check/domain_posture_check.py
 
-## Hands-on lab
+## Hands-on labs
 
 ### Windows Firewall Port Scan Lab
 
@@ -19,6 +19,14 @@ A standard-library Python command-line tool that checks **one domain per run** f
 
 - Guide: attack-simulations/firewall-portscan-lab/README.md
 - Do not mark this lab complete until real results have been recorded and sensitive details have been redacted.
+
+### Raspberry Pi Cowrie Honeypot
+
+**Planned — not yet installed or tested.** A contained Raspberry Pi exercise to generate a few benign SSH connection attempts from the user's own lab machine and review the resulting logs.
+
+- Guide: honeypot-project/raspberrypi-cowrie-setup.md
+- Keep it local and isolated; do not expose it to the public internet or use real credentials.
+- Do not claim findings until the exercise has been performed and documented.
 
 ## Lab approach
 
