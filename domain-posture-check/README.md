@@ -17,7 +17,7 @@ You can also enter a full URL:
 
     python3 domain_posture_check.py https://example.com
 
-The tool makes one DNS lookup, one TLS connection, and one HTTP HEAD request to the domain. The exact headers and certificate dates depend on the domain and can change.
+The tool makes one DNS lookup, one TLS connection, and one HTTP HEAD request to the domain. The exact headers and certificate dates depend on the domain and can change. Run the offline unit tests with: python3 -m unittest -v.
 
 ## What it checks
 
