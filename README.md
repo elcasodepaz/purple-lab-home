@@ -1,6 +1,6 @@
 # Purple Lab Home
 
-A growing portfolio of small cybersecurity labs and defensive tools. The goal is to show the process: what I set up, what I observed, what the result means, and how a defender can use the lesson.
+A growing portfolio of cybersecurity projects and controlled labs. The focus is learning penetration-testing methods in authorized environments and connecting observations to defensive takeaways.
 
 ## Projects
 
@@ -11,12 +11,22 @@ A standard-library Python command-line tool that checks **one domain per run** f
 - Project guide: domain-posture-check/README.md
 - Python script: domain-posture-check/domain_posture_check.py
 
+## Hands-on lab
+
+### Windows Firewall Port Scan Lab
+
+**Planned — not yet performed.** A narrow service-discovery scan of the user's own Windows 11 lab computer from Kali, followed by review of the Windows Defender Firewall log.
+
+- Guide: attack-simulations/firewall-portscan-lab/README.md
+- Do not mark this lab complete until real results have been recorded and sensitive details have been redacted.
+
 ## Lab approach
 
 - Test only systems I own or have explicit permission to assess.
-- Keep each tool narrow and explain what it does and does not establish.
-- Record commands, sample results, limitations, and defensive recommendations.
-- Build the portfolio project by project while practicing Linux, Python, networking, and cloud security.
+- Define the target and allowed activity before testing.
+- Keep tools narrow and explain what they do and do not establish.
+- Record real commands, observations, limitations, and defensive recommendations.
+- Build the portfolio project by project while practicing Python, Linux, networking, and security fundamentals.
 
 ## Training
 
